@@ -1,13 +1,15 @@
 {
-  "name": "libp2p_test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "libp2p-example",
+  "version": "0.1.0",
+  "description": "Server - Client example for libp2p",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "node client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "chriamue",
   "license": "ISC",
   "dependencies": {
     "@nodeutils/defaults-deep": "^1.1.0",
